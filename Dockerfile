@@ -1,6 +1,6 @@
 # Use the official httpd image as the base image
-FROM httpd:2.4
+FROM nginx
 # Copy all the files from the current directory into the apache httpd web root
-COPY . /usr/local/apache2/htdocs/
+COPY . /usr/share/nginx/html
 # Expose port 80 (the default HTTP port)
 EXPOSE 80
