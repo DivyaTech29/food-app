@@ -1,0 +1,6 @@
+[
+  {
+    "name": "my-static-website",
+    "imageUri": "<aws_account_id>.dkr.ecr.us-west-2.amazonaws.com/my-static-website:latest"
+  }
+]
