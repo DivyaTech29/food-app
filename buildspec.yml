@@ -17,7 +17,7 @@ phases:
       - echo Pushing the Docker image to ECR...
       - docker push 381492175992.dkr.ecr.us-west-2.amazonaws.com/food-web:latest
       - echo Creating imagedefinitions.json file...
-      - printf '[{"name":"food-web","imageUri":"%s"}]' 381492175992.dkr.ecr.us-west-2.amazonaws.com/food-web:latest > imagedefinitions.json
+      - printf '[{"name":"food-1","imageUri":"%s"}]' 381492175992.dkr.ecr.us-west-2.amazonaws.com/food-web:latest > imagedefinitions.json
 artifacts:
   files:
     - imagedefinitions.json
