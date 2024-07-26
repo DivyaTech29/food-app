@@ -1,6 +1,6 @@
 [
   {
-    "name": "my-static-website",
-    "imageUri": "<aws_account_id>.dkr.ecr.us-west-2.amazonaws.com/my-static-website:latest"
+    "name": "food-web",
+    "imageUri": "381492175992.dkr.ecr.us-west-2.amazonaws.com/food-web:latest"
   }
 ]
